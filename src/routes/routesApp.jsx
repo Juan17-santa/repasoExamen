@@ -3,7 +3,7 @@ import Landing from "../feature/landing/landing";
 import Login from "../feature/landing/pages/auth/login";
 import Registrate from "../feature/landing/pages/auth/register";
 import Dashboard from "../feature/dashboard/dashboard";
-import Home from "../feature/dashboard/Home/home";
+import Home from "../feature/dashboard/home";
 import Empresas from "../feature/dashboard/empresas/empresas";
 import Empleados from "../feature/dashboard/empleados/empleados";
 

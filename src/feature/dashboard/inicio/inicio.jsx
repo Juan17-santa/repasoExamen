@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 
-export default function Home() {
+export default function Inicio() {
     const navigate = useNavigate()
     const [empresas, setEmpresas] = useState([])
     const [empleados, setEmpleados] = useState([])

@@ -3,9 +3,9 @@ import Landing from "../feature/landing/landing";
 import Login from "../feature/landing/pages/auth/login";
 import Registrate from "../feature/landing/pages/auth/register";
 import Dashboard from "../feature/dashboard/dashboard";
-import Home from "../feature/dashboard/home.jsx";
 import Empresas from "../feature/dashboard/empresas/empresas";
 import Empleados from "../feature/dashboard/empleados/empleados";
+import Inicio from "../feature/dashboard/inicio/inicio";
 
 export default function RoutesApp() {
     return (
@@ -17,7 +17,7 @@ export default function RoutesApp() {
                 </Route>
 
                 <Route path="/dashboard" element={<Dashboard />}>
-                    <Route index element={<Home />} />
+                    <Route index element={<Inicio />} />
                     <Route path="empresas" element={<Empresas />} />
                     <Route path="empleados" element={<Empleados />} />
                 </Route>

@@ -28,7 +28,7 @@ export default function Registrate() {
 
         alert ("Registro exitoso!")
         console.log(examen)
-        navigate("/login")
+        navigate("/")
     }
 
     return (
